@@ -40,7 +40,7 @@
       </f7-list-item>
       <f7-list-item>
         <f7-label>Switch</f7-label>
-        <f7-input type="switch" @change="onChange"></f7-input>
+        <f7-input type="switch"></f7-input>
       </f7-list-item>
       <f7-list-item>
         <f7-label>Range</f7-label>
