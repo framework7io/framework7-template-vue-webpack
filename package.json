@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/nolimits4web/Framework7-Vue-Webpack-Template/issues"
   },
-  "homepage": "https://github.com/nolimits4web/Framework7-Vue-Webpack-Template#readme",
+  "homepage": "http://framework7.io",
   "dependencies": {
     "vue": "^2.1.0",
     "framework7": "^1.5.2",
