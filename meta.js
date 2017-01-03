@@ -14,6 +14,12 @@ module.exports = {
 		"author": {
 			"type": "string",
 			"message": "Author"
+		},
+		"homepage": {
+			"type": "string",
+			"required": false,
+			"message": "Project Website",
+			"default": ""
 		}
 	},
 	"completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/nolimits4web/Framework7-Vue-Webpack-Template"
