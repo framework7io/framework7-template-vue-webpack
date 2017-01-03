@@ -2,6 +2,15 @@
 
 A full-featured Framework7 + Vue + Webpack setup with hot-reload & css extraction. Based on [Vue Webpack Boilerplate](https://github.com/vuejs-templates/webpack)
 
+## Install
+
+If you didn't installed vue-cli, you can use `npm i -g vue-cli` command for install vue-cli.
+
+``` bash
+# clones template to <directory_name>
+vue init nolimits4web/Framework7-Vue-Webpack-Template <directory_name>
+```
+
 ## Build Setup
 
 ``` bash
