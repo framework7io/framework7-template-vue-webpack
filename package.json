@@ -28,9 +28,9 @@
   },
   "homepage": "http://framework7.io/vue/",
   "dependencies": {
-    "vue": "^2.1.0",
+    "vue": "^2.1.8",
     "framework7": "^1.5.2",
-    "framework7-vue": "^0.7.0"
+    "framework7-vue": "^0.7.2"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
