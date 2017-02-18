@@ -16,11 +16,11 @@
             <li v-for="(value, key) in $route.query"><b>{{key}}:</b> {{value}}</li>
           </ul>
         </li>
-        <li><b>Route:</b> {{$route.route}}</li>
+        <li><b>Route:</b> {{$route.route.path}}</li>
       </ul>
     </f7-block>
     <f7-block inner>
-      <f7-link @click="$router.back()">Go back via Router API</f7-link>
+      <f7-link @click="$route.view.router.back()">Go back via Router API</f7-link>
     </f7-block>
 
   </f7-page>
