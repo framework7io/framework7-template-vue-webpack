@@ -8,10 +8,10 @@
     <!-- Left Panel -->
     <f7-panel left reveal layout="dark">
       <f7-view id="left-panel-view" navbar-through :dynamic-navbar="true">
-        <f7-navbar v-if="$theme.ios" title="Left Panel"></f7-navbar>
+        <f7-navbar v-if="$theme.ios" title="Left Panel" sliding></f7-navbar>
         <f7-pages>
           <f7-page>
-            <f7-navbar v-if="$theme.material" title="Left Panel"></f7-navbar>
+            <f7-navbar v-if="$theme.material" title="Left Panel" sliding></f7-navbar>
             <f7-block inner>
               <p>Left panel content goes here</p>
             </f7-block>
@@ -36,7 +36,7 @@
         <f7-navbar v-if="$theme.ios" title="Right Panel" sliding></f7-navbar>
         <f7-pages>
           <f7-page>
-            <f7-navbar v-if="$theme.material" title="Right Panel"></f7-navbar>
+            <f7-navbar v-if="$theme.material" title="Right Panel" sliding></f7-navbar>
             <f7-block>
               <p>Right panel content goes here</p>
             </f7-block>
