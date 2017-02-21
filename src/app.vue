@@ -71,7 +71,7 @@
         <!-- Pages -->
         <f7-pages>
           <f7-page>
-            <!-- iOS Theme Navbar -->
+            <!-- Material Theme Navbar -->
             <f7-navbar v-if="$theme.material">
               <f7-nav-left>
                 <f7-link icon="icon-bars" open-panel="left"></f7-link>
