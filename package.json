@@ -28,8 +28,8 @@
   },
   "homepage": "http://framework7.io/vue/",
   "dependencies": {
-    "framework7": "^1.5.4",
-    "framework7-vue": "^0.8.5",
+    "framework7": "^1.6.4",
+    "framework7-vue": "^0.9.2",
     "vue": "^2.2.4"
   },
   "devDependencies": {
