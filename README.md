@@ -1,6 +1,54 @@
 # Framework7 Vue + Webpack App Template
 
-A full-featured Framework7 + Vue + Webpack setup with hot-reload & css extraction. Based on [Vue Webpack Boilerplate](https://github.com/vuejs-templates/webpack)
+A full-featured Framework7 Vue with Webpack setup with hot-reload & css extraction. Based on [Vue Webpack Boilerplate](https://github.com/vuejs-templates/webpack)
+
+## Usage
+
+### 1. Download this repository
+```
+git clone https://github.com/framework7io/framework7-template-vue-simple my-app
+```
+
+Repository will be downloaded into `my-app/` folder
+
+### 2. Instal dependencies
+
+Go to the downloaded repository folder and run:
+```
+npm install
+```
+
+This will download latest version of Framework7, Framework7-Vue, Vue and required icon fonts (to `/src/fonts/`)
+
+### 3. Run the app
+
+```
+npm run serve
+```
+
+App will be opened in browser at `http://localhost:8080/`
+
+### 4. Build app for production
+
+```
+npm run build
+```
+
+The output will be at `www/` folder
+
+## Use with cordova
+
+Just put the contents of `www` folder in your cordova's project root `www` folder
+
+## One command install
+
+```
+git clone https://github.com/framework7io/framework7-template-vue-webpack my-app &&
+cd my-app &&
+npm install &&
+npm run dev
+```
+
 
 ## Build Setup
 
