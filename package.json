@@ -1,6 +1,6 @@
 {
   "name": "framework7-template-vue-webpack",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Framework7 Vue Webpack starter app template",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
