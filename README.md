@@ -23,7 +23,7 @@ This will download latest version of Framework7, Framework7-Vue, Vue and require
 ### 3. Run the app
 
 ```
-npm run serve
+npm run dev
 ```
 
 App will be opened in browser at `http://localhost:8080/`
