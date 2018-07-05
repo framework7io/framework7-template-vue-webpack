@@ -31,11 +31,11 @@
   },
   "homepage": "http://framework7.io/vue/",
   "dependencies": {
-    "framework7": "^2.2.5",
-    "framework7-icons": "^0.8.9",
-    "framework7-vue": "^2.2.5",
+    "framework7": "^3.0.0",
+    "framework7-icons": "^0.9.1",
+    "framework7-vue": "^3.0.0",
     "material-design-icons": "^3.0.1",
-    "vue": "^2.5.2"
+    "vue": "^2.5.16"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -69,7 +69,7 @@
     "url-loader": "^0.5.8",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.5.2",
+    "vue-template-compiler": "^2.5.16",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",

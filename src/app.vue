@@ -1,6 +1,6 @@
 <template>
   <!-- App -->
-  <div id="app">
+  <f7-app :params="f7params">
 
     <!-- Statusbar -->
     <f7-statusbar></f7-statusbar>
@@ -57,9 +57,25 @@
       </f7-view>
     </f7-login-screen>
 
-  </div>
+  </f7-app>
 </template>
 
 <script>
-export default {}
+// Import Routes
+import routes from './routes.js'
+
+export default {
+  data() {
+    return {
+      // Framework7 parameters here
+      f7params: {
+        id: 'io.framework7.testapp', // App bundle ID
+        name: 'Framework7', // App name
+        theme: 'auto', // Automatic theme detection
+        // App routes
+        routes: routes,
+      },
+    }
+  }
+}
 </script>
