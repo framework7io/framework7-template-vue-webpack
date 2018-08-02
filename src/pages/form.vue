@@ -55,12 +55,14 @@
 
     <f7-block-title>Checkbox group</f7-block-title>
     <f7-list form>
-      <f7-list-item v-for="n in 3" :key="n" checkbox name="my-checkbox" :value="n" :title="'Checkbox ' + n"></f7-list-item>
+      <f7-list-item v-for="n in 3" :key="n" checkbox name="my-checkbox" :value="n"
+                    :title="'Checkbox ' + n"></f7-list-item>
     </f7-list>
 
     <f7-block-title>Radio buttons group</f7-block-title>
     <f7-list form>
-      <f7-list-item v-for="n in 3" :key="n" radio name="my-radio" :checked="n === 1" :value="n" :title="'Radio ' + n"></f7-list-item>
+      <f7-list-item v-for="n in 3" :key="n" radio name="my-radio" :checked="n === 1" :value="n"
+                    :title="'Radio ' + n"></f7-list-item>
     </f7-list>
 
     <f7-block-title>Buttons</f7-block-title>
@@ -102,5 +104,5 @@
 </template>
 
 <script>
-export default {}
+  export default {}
 </script>

@@ -1,5 +1,9 @@
 // Import Vue
 import Vue from 'vue';
+//引入Vuex
+import Vuex from 'vuex'
+
+Vue.use(Vuex);
 
 // Import F7
 import Framework7 from 'framework7/framework7.esm.bundle.js';
@@ -18,13 +22,18 @@ import AppStyles from './css/app.css';
 import App from './app';
 
 // Init F7 Vue Plugin
-Framework7.use(Framework7Vue)
+Framework7.use(Framework7Vue);
+
+import stores from './store.js';
+
+const store = new Vuex.Store(stores);
+import local from './local.js'
 
 // Init App
 new Vue({
   el: '#app',
   template: '<app/>',
-
+  // store: store,
   // Register App Component
   components: {
     app: App

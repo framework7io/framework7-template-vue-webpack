@@ -50,5 +50,61 @@
   </f7-page>
 </template>
 <script>
-export default {}
+  import mixin from "../mixin/mixin.js";
+
+  export default {
+    mixins: [mixin],
+    data() {
+      return {
+        posts: [],
+        msg: 'hello'
+      }
+    },
+    beforeMount() {
+      this.initData();
+    },
+    methods: {
+      initData() {
+        const wp = this.currWebsiteApi;
+        // Promises
+        let _this = this;
+        wp.posts(_this).then(function (data) {
+          // do something with the returned posts
+          _this.posts = data;
+          console.log(_this.posts);
+        }).catch(function (err) {
+          // handle error
+          console.error(err);
+        });
+      },
+      enter() {
+        alert(this.msg);
+      }
+    },
+    computed: {
+      upper() {
+        return this.msg.toUpperCase();
+      }
+    }
+  }
+
+  // export default {
+  //   data() {
+  //     return {
+  //       posts:[]
+  //     };
+  //   },
+  //   mounted() {
+  //     var wp = new WPAPI({ endpoint: 'http://www.xinminnews.com/wp-json' });
+  //     // Promises
+  //     wp.posts().then(function( data ) {
+  //       // do something with the returned posts
+  //       debugger
+  //       this.posts = data;
+  //       console.log(this.posts);
+  //     }).catch(function( err ) {
+  //       // handle error
+  //     });
+  //   }
+  // }
 </script>

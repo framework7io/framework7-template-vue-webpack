@@ -26,5 +26,5 @@
 </template>
 
 <script>
-export default {}
+  export default {}
 </script>
