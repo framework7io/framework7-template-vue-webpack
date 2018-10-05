@@ -15,7 +15,7 @@ import IconsStyles from './css/icons.css';
 import AppStyles from './css/app.css';
 
 // Import App Component
-import App from './app';
+import App from './app.vue';
 
 // Init F7 Vue Plugin
 Framework7.use(Framework7Vue)

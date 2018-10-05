@@ -37,7 +37,7 @@ npm run build
 The output will be at `www/` folder
 
 ## Use with cordova
-Cordova is not enabled by default, so make sure to remove the comment tags around the "<script src="cordova.js"></script>" line in [projectroot]/index.html
+Cordova is not enabled by default, so make sure to remove the comment tags around the `<script src="cordova.js"></script>` line in [projectroot]/src/index.html
 ```
 <body>
   <div id="app"></div>
@@ -49,7 +49,7 @@ Cordova is not enabled by default, so make sure to remove the comment tags aroun
   <!-- built script files will be auto injected -->
 </body>
 ```
-It will be added during the build process to Android/iOS. 
+It will be added during the build process to Android/iOS.
 
 Just put the contents of `www` folder in your cordova's project root `www` folder
 
@@ -71,16 +71,21 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
+# build for development
+npm run build-dev
+
 # build for production with minification
-npm run build
+npm run build-prod
 ```
 
 ## Project Structure
 
+* `src/index.html` - main app HTML
 * `src/assets` - folder with static assets (images)
 * `src/components` - folder with custom `.vue` components
 * `src/css` - put custom app CSS styles here. Don't forget to import them in `main.js`
 * `src/pages` - app `.vue` pages
-* `src/main.js` - main app file where you include/import all required libs and init app
+* `src/app.js` - main app file where you include/import all required libs and init app
 * `src/routes.js` - app routes
 * `src/app.vue` - main app structure/component
+* `/static/` - folder with extra static assets that will be copied into output folder
